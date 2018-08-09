@@ -25,7 +25,7 @@
         _currentState = StateQ0;
         _chains = [NSMutableArray arrayWithObjects:@"ab",@"abba",@"baaa",@"baab",@"bac",@"abbc", nil];
         _currentChain = [NSMutableString string];
-        _variants = @{ [NSNumber numberWithInteger: StateQ1]  : @[@"a"],
+        _variants = @{  [NSNumber numberWithInteger: StateQ1]  : @[@"a"],
                        [NSNumber numberWithInteger: StateQ2]  : @[@"ab"],
                        [NSNumber numberWithInteger: StateQ3]  : @[@"abb"],
                        [NSNumber numberWithInteger: StateQ4]  : @[@"abba"],
